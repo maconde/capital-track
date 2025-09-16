@@ -1,5 +1,6 @@
 package com.maconde.dto;
 
+import com.maconde.enums.StakeholderType;
 import lombok.*;
 
 import java.io.Serial;
@@ -16,5 +17,6 @@ public class StakeholderParticipationDto implements Serializable {
 
     private long id;
     private String stakeholderName;
+    private StakeholderType stakeholderType;
     private double percentage;
 }
